@@ -103,6 +103,7 @@ local theme = {
     fg = '#E4A88A',
   },
   match_paren = '#FFFFFF',
+  match_paren_bg = '#191919',
   operator = {
     fg = '#BBBBBB',
   },
@@ -154,7 +155,8 @@ local theme = {
   variable = {
     fg = '#D55070',
   },
-  visual = '#343647',
+  visual_fg = '#393552',
+  visual_bg = '#fcb2aa',
   warning = '#24A075',
   winbar = '#232530',
   winseparator_fg = '#1A1C23',
