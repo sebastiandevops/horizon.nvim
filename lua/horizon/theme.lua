@@ -166,7 +166,7 @@ local function get_highlights(data, custom)
     ['Function'] = t.func,
     ['Keyword'] = { fg = p.syntax.yellow, bg = p.syntax.yellow_bg, bold = true },
     ['Conditional'] = { fg = p.syntax.yellow },
-    ['Repeat'] = { fg = p.syntax.lavender },
+    ['Repeat'] = { fg = p.syntax.yellow },
     ['Operator'] = { link = 'Delimiter' },
     ['PreProc'] = { fg = p.syntax.lavender },
     ['Include'] = { fg = p.syntax.lavender },

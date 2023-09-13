@@ -30,6 +30,7 @@ local palette = {
     turquoise = '#25B0BC',
     yellow = '#FFEFAE',
     yellow_bg = '#312c37',
+
   },
   ui = {
     accent = '#2E303E',
@@ -54,7 +55,7 @@ local theme = {
   active_line_number_fg = '#e0def4',
   bg = 'NONE',
   class_variable = {
-    fg = '#D55070',
+    fg = '#ff7edb',
   },
   code_block = {
     fg = '#DB887A',
@@ -153,7 +154,7 @@ local theme = {
     fg = '#E4B28E',
   },
   variable = {
-    fg = '#D55070',
+    fg = '#ff7edb',
   },
   visual_fg = '#393552',
   visual_bg = '#fcb2aa',
