@@ -28,6 +28,7 @@ local palette = {
     rosebud = '#FAB795',
     tacao = '#FAC29A',
     turquoise = '#25B0BC',
+    yellow = '#FFEFAE',
   },
   ui = {
     accent = '#2E303E',
@@ -94,7 +95,7 @@ local theme = {
   indent_guide_active_fg = '#2E303E',
   indent_guide_fg = '#252732',
   keyword = {
-    fg = '#A86EC9',
+    fg = '#FFEFAE',
   },
   link = {
     fg = '#E4A88A',

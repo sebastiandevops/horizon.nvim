@@ -164,7 +164,7 @@ local function get_highlights(data, custom)
     ['Constant'] = t.constant,
     ['Type'] = { fg = p.syntax.tacao },
     ['Function'] = t.func,
-    ['Keyword'] = t.keyword,
+    ['Keyword'] = { fg = p.syntax.yellow, bold = true },
     ['Conditional'] = { fg = p.syntax.lavender },
     ['Repeat'] = { fg = p.syntax.lavender },
     ['Operator'] = { link = 'Delimiter' },
