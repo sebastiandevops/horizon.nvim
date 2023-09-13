@@ -101,12 +101,7 @@ local theme = {
   link = {
     fg = '#E4A88A',
   },
-  match_paren = {
-    fg = '#FFFFFF',
-    bg = '#191919',
-    bold = true,
-    underline = true,
-  },
+  match_paren = '#FFFFFF',
   operator = {
     fg = '#BBBBBB',
   },
