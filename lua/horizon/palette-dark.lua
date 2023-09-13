@@ -30,7 +30,7 @@ local palette = {
     turquoise = '#25B0BC',
     yellow = '#FFEFAE',
     yellow_bg = '#312c37',
-
+    purple = '#FF7EDB',
   },
   ui = {
     accent = '#2E303E',

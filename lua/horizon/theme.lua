@@ -155,7 +155,7 @@ local function get_highlights(data, custom)
 
     -- Code
     ['Comment'] = t.comment,
-    ['Variable'] = { fg = p.syntax.cranberry },
+    ['Variable'] = { fg = p.syntax.purple },
     ['String'] = t.string,
     ['Character'] = { fg = p.syntax.rosebud },
     ['Number'] = { fg = p.syntax.apricot },
