@@ -246,7 +246,7 @@ local function get_highlights(data, custom)
     ['@strike'] = { strikethrough = true },
     ['@string.special'] = { fg = t.fg },
     ['@environment.name'] = { fg = p.syntax.turquoise },
-    ['@variable.builtin'] = { fg = p.syntax.tacao },
+    ['@variable.builtin'] = { fg = p.syntax.red },
     ['@const.macro'] = { fg = p.syntax.apricot },
     ['@type.builtin'] = { fg = p.syntax.apricot },
     ['@annotation'] = { fg = p.syntax.turquoise },
