@@ -148,7 +148,7 @@ local function get_highlights(data, custom)
     ['MoreMsg'] = { fg = p.syntax.apricot },
     ['Question'] = { fg = p.syntax.apricot },
     ['EndOfBuffer'] = { fg = t.bg },
-    ['NonText'] = { fg = p.ui.backgroundAlt },
+    ['NonText'] = { fg = p.ui.backgroundAlt, bg = 'NONE' },
     ['TabLine'] = { fg = p.ui.lightText, bg = p.ui.background },
     ['TabLineSel'] = { fg = t.fg, bg = p.ui.background },
     ['TabLineFill'] = { fg = p.ui.background, bg = p.ui.background },
