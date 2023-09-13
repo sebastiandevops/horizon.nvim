@@ -158,7 +158,7 @@ local function get_highlights(data, custom)
     ['Variable'] = { fg = p.syntax.purple },
     ['String'] = t.string,
     ['Character'] = { fg = p.syntax.rosebud },
-    ['Number'] = { fg = p.syntax.apricot },
+    ['Number'] = { fg = p.syntax.blue },
     ['Float'] = { fg = p.syntax.apricot },
     ['Boolean'] = { fg = p.syntax.apricot },
     ['Constant'] = t.constant,
