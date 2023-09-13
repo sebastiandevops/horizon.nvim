@@ -251,7 +251,7 @@ local function get_highlights(data, custom)
     ['@annotation'] = { fg = p.syntax.turquoise },
     ['@namespace'] = { fg = p.syntax.turquoise },
     ['@symbol'] = { fg = t.fg },
-    ['@field'] = { fg = p.syntax.cranberry },
+    ['@field'] = { fg = p.syntax.fg },
     ['@property'] = { fg = p.syntax.cranberry },
     ['@parameter'] = { fg = p.syntax.cranberry },
     ['@parameter.reference'] = t.parameter,

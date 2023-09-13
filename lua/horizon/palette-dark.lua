@@ -31,6 +31,7 @@ local palette = {
     yellow = '#FFEFAE',
     yellow_bg = '#312c37',
     purple = '#FF7EDB',
+    fg = '#ffffff',
   },
   ui = {
     accent = '#2E303E',
