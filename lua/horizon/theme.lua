@@ -396,7 +396,7 @@ local function get_plugin_highlights(data, custom)
       ['NvimTreeImageFile'] = { fg = p.ui.lightText },
       ['NvimTreeSpecialFile'] = { fg = p.syntax.apricot },
       ['NvimTreeEndOfBuffer'] = { fg = t.comment.fg },
-      ['NvimTreeCursorLine'] = { bg = t.cursorline_bg },
+      ['NvimTreeCursorLine'] = { fg = t.cursorline_fg, bg = 'NONE', bold = true },
       ['NvimTreeGitStaged'] = { fg = t.git_added_fg },
       ['NvimTreeGitNew'] = { fg = t.git_untracked_fg },
       ['NvimTreeGitRenamed'] = { fg = t.git_modified_fg },

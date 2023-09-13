@@ -71,6 +71,7 @@ local theme = {
   cursor_bg = '#E95378',
   cursor_fg = '#1C1E26',
   cursorline_bg = '#21232D',
+  cursorline_fg = '#f0eeff',
   delimiter = {
     fg = '#908ec4',
   },
@@ -116,7 +117,7 @@ local theme = {
     fg = '#DB887A',
   },
   sidebar_bg = '#1C1E26',
-  sidebar_fg = '#797B80',
+  sidebar_fg = '#a8a3b5',
   sign_added_bg = '#0FB67B',
   sign_deleted_bg = '#B3344C',
   sign_modified_bg = '#208F93',
