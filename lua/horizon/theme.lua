@@ -376,7 +376,7 @@ local function get_plugin_highlights(data, custom)
       ['TelescopeSelection'] = { bg = custom.blue },
       ['TelescopeSelectionCaret'] = { fg = p.syntax.cranberry, bg = custom.blue },
       ['TelescopeMatching'] = { fg = p.syntax.tacao, bold = true, italic = true },
-      ['TelescopeBorder'] = { fg = t.float_border },
+      ['TelescopeBorder'] = { fg = t.float_border, bg = 'NONE' },
       ['TelescopeNormal'] = { fg = p.ui.lightText, bg = p.ui.background },
       ['TelescopePromptTitle'] = { fg = p.syntax.apricot },
       ['TelescopePromptPrefix'] = { fg = p.syntax.turquoise },
