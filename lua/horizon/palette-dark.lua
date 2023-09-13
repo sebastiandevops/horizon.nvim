@@ -72,7 +72,7 @@ local theme = {
   cursor_fg = '#1C1E26',
   cursorline_bg = '#21232D',
   delimiter = {
-    fg = '#6C6D71',
+    fg = '#908ec4',
   },
   diff_added_bg = '#1A3432',
   diff_deleted_bg = '#4A2024',
