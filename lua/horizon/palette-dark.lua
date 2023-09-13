@@ -29,6 +29,7 @@ local palette = {
     tacao = '#FAC29A',
     turquoise = '#25B0BC',
     yellow = '#FFEFAE',
+    yellow_bg = '#312c37',
   },
   ui = {
     accent = '#2E303E',
