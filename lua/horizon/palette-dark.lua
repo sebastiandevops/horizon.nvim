@@ -89,6 +89,7 @@ local theme = {
   float_border = '#232530',
   func = {
     fg = '#24A1AD',
+    bg = '#262D3F',
   },
   git_added_fg = '#24A075',
   git_deleted_fg = '#F43E5C',

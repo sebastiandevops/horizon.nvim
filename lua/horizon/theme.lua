@@ -163,7 +163,7 @@ local function get_highlights(data, custom)
     ['Boolean'] = { fg = p.syntax.apricot },
     ['Constant'] = t.constant,
     ['Type'] = { fg = p.syntax.tacao },
-    ['Function'] = t.func,
+    ['Function'] = { fg = t.func.fg, bg = t.func.bg, bold = true },
     ['Keyword'] = { fg = p.syntax.yellow, bg = p.syntax.yellow_bg, bold = true },
     ['Conditional'] = { fg = p.syntax.yellow },
     ['Repeat'] = { fg = p.syntax.yellow },
