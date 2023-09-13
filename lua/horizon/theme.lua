@@ -450,9 +450,11 @@ local function get_plugin_highlights(data, custom)
       ['BufferInactiveTarget'] = { fg = p.syntax.cranberry, bg = p.ui.background, bold = true },
     },
     indent_blankline = {
-      ['IndentBlanklineContextChar'] = { fg = t.indent_guide_active_fg },
-      ['IndentBlanklineContextStart'] = { sp = t.indent_guide_active_fg, underline = true },
-      ['IndentBlanklineChar'] = { fg = t.indent_guide_fg },
+      ['IndentBlanklineContextChar'] = { fg = t.indent_guide_context_fg, bg = 'NONE' },
+      ['IndentBlanklineContextStart'] = { sp = t.indent_guide_context_fg, underline = true },
+      ['IndentBlanklineChar'] = { fg = t.indent_guide_fg, bg = 'NONE' },
+      ['IndentBlanklineSpaceCharBlankline'] = { fg = t.indent_guide_active_fg },
+      ['IndentBlanklineSpaceChar'] = { fg = t.indent_guide_active_fg },
     },
     cmp = {
       ['CmpItemAbbrMatch'] = { fg = t.pmenu_item_sel_fg },
