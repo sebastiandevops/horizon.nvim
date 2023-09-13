@@ -115,7 +115,7 @@ local function get_highlights(data, custom)
     ['LineNr'] = { fg = t.inactive_line_number_fg },
     ['NormalFloat'] = { bg = t.float_bg },
     ['FloatBorder'] = { fg = t.float_border, bg = t.float_bg },
-    ['Whitespace'] = { fg = p.ui.backgroundAlt },
+    ['Whitespace'] = { fg = p.ui.backgroundAlt, bg = 'NONE' },
     ['VertSplit'] = { fg = t.winseparator_fg, bg = t.bg },
     ['CursorLine'] = { bg = t.cursorline_bg },
     ['CursorColumn'] = { bg = p.ui.background },
