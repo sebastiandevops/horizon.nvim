@@ -142,8 +142,8 @@ local function get_highlights(data, custom)
     ['Directory'] = { fg = t.keyword.fg, bold = true },
     ['SpecialKey'] = { fg = p.syntax.cranberry, bold = true },
     ['ErrorMsg'] = { fg = p.ui.negative, bold = true },
-    ['Search'] = { bg = custom.blue },
-    ['IncSearch'] = { bg = custom.blue },
+    ['Search'] = { bg = custom.blue, bold = true },
+    ['IncSearch'] = { bg = custom.blue, bold = true },
     ['Substitute'] = { bg = custom.blue },
     ['MoreMsg'] = { fg = p.syntax.apricot },
     ['Question'] = { fg = p.syntax.apricot },
@@ -152,6 +152,7 @@ local function get_highlights(data, custom)
     ['TabLine'] = { fg = p.ui.lightText, bg = p.ui.background },
     ['TabLineSel'] = { fg = t.fg, bg = p.ui.background },
     ['TabLineFill'] = { fg = p.ui.background, bg = p.ui.background },
+    ['IlluminatedWord'] = { fg = p.syntax.fg, bg = 'NONE', bold = true },
 
     -- Code
     ['Comment'] = t.comment,
