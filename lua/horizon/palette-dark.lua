@@ -80,7 +80,8 @@ local theme = {
   cursorline_bg = '#21232D',
   cursorline_fg = '#F0EEFF',
   delimiter = {
-    fg = '#908ec4',
+    fg = '#B180D7',
+    bg = '#322D44',
   },
   diff_added_bg = '#1A3432',
   diff_deleted_bg = '#4A2024',

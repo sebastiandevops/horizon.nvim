@@ -237,7 +237,7 @@ local function get_highlights(data, custom)
     ['@label'] = { link = 'Label' },
     ['@tag.delimiter'] = { fg = p.syntax.cranberry },
     ['@punctuation.delimiter'] = { link = 'Delimiter' },
-    ['@punctuation.bracket'] = { link = 'Delimiter' },
+    ['@punctuation.bracket'] = { fg = p.delimiter.fg, bg = p.delimiter.bg, bold = true },
     ['@punctuation.special'] = { link = 'Delimiter' },
     ['@tag'] = { link = 'Tag' },
     ['@strong'] = { link = 'Bold' },
