@@ -143,7 +143,7 @@ local function get_highlights(data, custom)
     ['SpecialKey'] = { fg = p.syntax.cranberry, bold = true },
     ['ErrorMsg'] = { fg = p.ui.negative, bold = true },
     ['Search'] = { fg = p.ansi.bright.cyan, bold = true },
-    ['IncSearch'] = { bg = custom.blue, bold = true },
+    ['IncSearch'] = { fg = p.ansi.normal.blue, bg = custom.blue, bold = true },
     ['Substitute'] = { bg = custom.blue },
     ['MoreMsg'] = { fg = p.syntax.apricot },
     ['Question'] = { fg = p.syntax.apricot },
