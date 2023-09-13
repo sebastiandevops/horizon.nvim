@@ -35,6 +35,8 @@ local palette = {
     fg = '#E0DEF4',
     blue = "#2EE2FA",
     green = "#72F1B8",
+    cyan = '#ABF3FD',
+    cyan_bg = '#262D3F',
   },
   ui = {
     accent = '#2E303E',
