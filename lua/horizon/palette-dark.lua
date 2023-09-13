@@ -30,10 +30,11 @@ local palette = {
     tacao = '#FAC29A',
     turquoise = '#25B0BC',
     yellow = '#FFEFAE',
-    yellow_bg = '#312c37',
+    yellow_bg = '#312C37',
     purple = '#FF7EDB',
-    fg = '#e0def4',
+    fg = '#E0DEF4',
     blue = "#2EE2FA",
+    green = "#72F1B8",
   },
   ui = {
     accent = '#2E303E',
@@ -55,10 +56,10 @@ local palette = {
 }
 
 local theme = {
-  active_line_number_fg = '#e0def4',
+  active_line_number_fg = '#E0DEF4',
   bg = 'NONE',
   class_variable = {
-    fg = '#ff7edb',
+    fg = '#FF7EDB',
   },
   code_block = {
     fg = '#DB887A',
