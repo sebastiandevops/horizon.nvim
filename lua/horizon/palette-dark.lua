@@ -26,6 +26,7 @@ local palette = {
     gray = '#BBBBBB',
     lavender = '#B877DB',
     rosebud = '#FAB795',
+    strong_yellow = '#FEDE5D',
     tacao = '#FAC29A',
     turquoise = '#25B0BC',
     yellow = '#FFEFAE',
