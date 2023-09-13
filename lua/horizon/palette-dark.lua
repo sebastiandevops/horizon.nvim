@@ -51,8 +51,8 @@ local palette = {
 }
 
 local theme = {
-  active_line_number_fg = '#797B80',
-  bg = '#1C1E26',
+  active_line_number_fg = '#e0def4',
+  bg = 'NONE',
   class_variable = {
     fg = '#D55070',
   },
@@ -62,7 +62,7 @@ local theme = {
   codelens_fg = '#44475D',
   color_column_fg = '#343647',
   comment = {
-    fg = '#4C4D53',
+    fg = '#6C6D73',
     italic = true,
   },
   constant = {
@@ -101,7 +101,12 @@ local theme = {
   link = {
     fg = '#E4A88A',
   },
-  match_paren = '#44475D',
+  match_paren = {
+    fg = '#FFFFFF',
+    bg = '#191919',
+    bold = true,
+    underline = true,
+  },
   operator = {
     fg = '#BBBBBB',
   },
