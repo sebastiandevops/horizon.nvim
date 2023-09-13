@@ -221,7 +221,7 @@ local function get_highlights(data, custom)
     ['@function.macro'] = { link = 'Function' },
     ['@conditional'] = { link = 'Conditional' },
     ['@repeat'] = { link = 'Repeat' },
-    ['@operator'] = { fg = p.syntax.strong_yellow, bg = p.syntax.yellow_bg, bold = true },
+    ['@operator'] = { fg = p.syntax.strong_yellow, bg = 'NONE' },
     ['@preproc'] = { link = 'PreProc' },
     ['@storageclass'] = { link = 'StorageClass' },
     ['@structure'] = { link = 'Structure' },
