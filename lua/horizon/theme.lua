@@ -142,7 +142,7 @@ local function get_highlights(data, custom)
     ['Directory'] = { fg = t.keyword.fg, bold = true },
     ['SpecialKey'] = { fg = p.syntax.cranberry, bold = true },
     ['ErrorMsg'] = { fg = p.ui.negative, bold = true },
-    ['Search'] = { bg = p.ansi.bright.cyan, bold = true },
+    ['Search'] = { fg = p.ansi.bright.cyan, bold = true },
     ['IncSearch'] = { bg = custom.blue, bold = true },
     ['Substitute'] = { bg = custom.blue },
     ['MoreMsg'] = { fg = p.syntax.apricot },
