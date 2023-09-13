@@ -76,7 +76,7 @@ local theme = {
   cursor_bg = '#E95378',
   cursor_fg = '#1C1E26',
   cursorline_bg = '#21232D',
-  cursorline_fg = '#f0eeff',
+  cursorline_fg = '#F0EEFF',
   delimiter = {
     fg = '#908ec4',
   },
@@ -89,7 +89,8 @@ local theme = {
     fg = '#D55070',
   },
   float_bg = '#232530',
-  float_border = '#232530',
+  float_fg = '#C0BED4',
+  float_border = '#6E6A86',
   func = {
     fg = '#24A1AD',
     bg = '#262D3F',
