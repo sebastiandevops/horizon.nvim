@@ -208,7 +208,7 @@ local function get_highlights(data, custom)
     ['@boolean'] = { link = 'Boolean' },
     ['@constant'] = { link = 'Constant' },
     ['@constant.builtin'] = { link = 'Constant' },
-    ['@constructor'] = { fg = p.syntax.lavender, bold = true },
+    ['@constructor'] = { fg = p.syntax.lavender, bg = p.syntax.cyan_bg, bold = true },
     ['@type'] = { link = 'Type' },
     ['@include'] = { link = 'Include' },
     ['@exception'] = { link = 'Exception' },
