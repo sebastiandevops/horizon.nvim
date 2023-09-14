@@ -39,6 +39,7 @@ local palette = {
     cyan_bg = '#262D3F',
     alt_fg = '#FFFFFF',
     red = '#FE4450',
+    reference = '#322D44',
   },
   ui = {
     accent = '#2E303E',
