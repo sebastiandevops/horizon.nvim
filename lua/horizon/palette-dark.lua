@@ -24,7 +24,7 @@ local palette = {
     apricot = '#F09483',
     cranberry = '#E95678',
     gray = '#BBBBBB',
-    lavender = '#B877DB',
+    lavender = '#CA79FC',
     rosebud = '#FAB795',
     strong_yellow = '#FEDE5D',
     tacao = '#FDB5AB',
@@ -83,7 +83,7 @@ local theme = {
   cursorline_bg = '#21232D',
   cursorline_fg = '#F0EEFF',
   delimiter = {
-    fg = '#B180D7',
+    fg = '#CA79FC',
     bg = '#322D44',
   },
   diff_added_bg = '#1A3432',
