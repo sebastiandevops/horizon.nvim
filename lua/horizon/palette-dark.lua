@@ -31,7 +31,7 @@ local palette = {
     turquoise = '#25B0BC',
     yellow = '#FFEFAE',
     yellow_bg = '#312C37',
-    purple = '#FF7EDB',
+    purple = '#DEABFD',
     fg = '#E0DEF4',
     blue = "#2EE2FA",
     green = "#72F1B8",
@@ -64,7 +64,7 @@ local theme = {
   active_line_number_fg = '#E0DEF4',
   bg = 'NONE',
   class_variable = {
-    fg = '#FF7EDB',
+    fg = '#DEABFD',
   },
   code_block = {
     fg = '#DB887A',
