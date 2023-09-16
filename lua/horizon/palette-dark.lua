@@ -27,7 +27,7 @@ local palette = {
     lavender = '#B877DB',
     rosebud = '#FAB795',
     strong_yellow = '#FEDE5D',
-    tacao = '#FAC29A',
+    tacao = '#FDB5AB',
     turquoise = '#25B0BC',
     yellow = '#FFEFAE',
     yellow_bg = '#312C37',
@@ -146,10 +146,10 @@ local theme = {
     fg = '#A86EC9',
   },
   string = {
-    fg = '#E4A88A',
+    fg = '#FDB5AB',
   },
   structure = {
-    fg = '#E4B28E',
+    fg = '#FDB5AB',
   },
   tag = {
     fg = '#D55070',
