@@ -4,7 +4,7 @@
 local palette = {
   ansi = {
     bright = {
-      blue = '#3FC4DE',
+      blue = '#5D7DFE',
       cyan = '#6BE4E6',
       green = '#3FDAA4',
       magenta = '#F075B5',
