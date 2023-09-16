@@ -167,7 +167,7 @@ local theme = {
     fg = '#E4B28E',
   },
   variable = {
-    fg = '#DEABFD',
+    fg = '#FE5DCD',
   },
   visual_fg = '#2D4F67',
   visual_bg = '#C8C093',
