@@ -107,9 +107,9 @@ local theme = {
   git_modified_fg = '#FAB38E',
   git_untracked_fg = '#27D797',
   inactive_line_number_fg = '#86829e',
-  indent_guide_active_fg = '#403D42',
-  indent_guide_fg = '#403D52',
-  indent_guide_context_fg = '#908EC4',
+  indent_guide_active_fg = '#605D62',
+  indent_guide_fg = '#605D62',
+  indent_guide_context_fg = '#9894f7',
   keyword = {
     fg = '#FFEFAE',
   },
