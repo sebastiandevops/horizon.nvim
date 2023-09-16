@@ -109,7 +109,7 @@ local theme = {
   inactive_line_number_fg = '#86829e',
   indent_guide_active_fg = '#605D62',
   indent_guide_fg = '#605D62',
-  indent_guide_context_fg = '#9894f7',
+  indent_guide_context_fg = '#B5ABFD',
   keyword = {
     fg = '#FFEFAE',
   },
