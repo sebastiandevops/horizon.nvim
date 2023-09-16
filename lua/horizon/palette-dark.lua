@@ -72,7 +72,7 @@ local theme = {
   codelens_fg = '#44475D',
   color_column_fg = '#343647',
   comment = {
-    fg = '#6C6D73',
+    fg = '#898ca9',
     italic = true,
   },
   constant = {
