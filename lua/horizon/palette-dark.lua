@@ -21,7 +21,7 @@ local palette = {
     },
   },
   syntax = {
-    apricot = '#F09483',
+    apricot = '#FC8979',
     cranberry = '#E95678',
     gray = '#BBBBBB',
     lavender = '#CA79FC',
@@ -76,7 +76,7 @@ local theme = {
     italic = true,
   },
   constant = {
-    fg = '#DB887A',
+    fg = '#FC8979',
   },
   cursor_bg = '#E95378',
   cursor_fg = '#1C1E26',
@@ -129,7 +129,7 @@ local theme = {
   pmenu_thumb_bg = '#242631',
   pmenu_thumb_fg = '#44475D',
   regex = {
-    fg = '#DB887A',
+    fg = '#FC8979',
   },
   sidebar_bg = '#1C1E26',
   sidebar_fg = '#a8a3b5',
