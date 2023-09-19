@@ -69,6 +69,7 @@ local theme = {
   code_block = {
     fg = '#DB887A',
   },
+  incsearch_bg = "#303641",
   codelens_fg = '#44475D',
   color_column_fg = '#343647',
   comment = {
