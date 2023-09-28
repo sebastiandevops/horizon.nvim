@@ -458,6 +458,9 @@ local function get_plugin_highlights(data, custom)
       ['IndentBlanklineChar'] = { fg = t.indent_guide_fg, bg = 'NONE' },
       ['IndentBlanklineSpaceCharBlankline'] = { fg = t.indent_guide_active_fg },
       ['IndentBlanklineSpaceChar'] = { fg = t.indent_guide_active_fg },
+      ['IblScope'] = { sp = t.indent_guide_context_fg, underline = true  },
+      ['IblIndex'] = { fg = t.indent_guide_context_fg, bg = 'NONE' },
+      ['IblWhitespace'] = { fg = t.indent_guide_active_fg },
     },
     cmp = {
       ['CmpItemAbbrMatch'] = { fg = t.pmenu_item_sel_fg },
