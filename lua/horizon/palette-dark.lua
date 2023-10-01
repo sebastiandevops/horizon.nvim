@@ -132,7 +132,7 @@ local theme = {
   regex = {
     fg = '#FF7E9B',
   },
-  sidebar_bg = '#1C1E26',
+  sidebar_bg = '#2e303e',
   sidebar_fg = '#a8a3b5',
   sign_added_bg = '#0FB67B',
   sign_deleted_bg = '#B3344C',
