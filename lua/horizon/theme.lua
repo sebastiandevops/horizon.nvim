@@ -369,6 +369,7 @@ local function get_plugin_highlights(data, custom)
       ['GitSignsAddInline'] = { link = 'DiffText' },
       ['GitSignsChangeInline'] = { link = 'DiffChange' },
       ['GitSignsDeleteInline'] = { link = 'DiffDelete' },
+      ['GitSignsCurrentLineBlame'] = { fg = p.ui.gitblame_fg, bg = 'NONE' },
     },
     quickscope = {
       ['QuickScopePrimary'] = { fg = '#ff007c', underline = true },
